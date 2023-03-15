@@ -1,0 +1,7 @@
+global_settings:
+  tags:
+    CostCentre: "SecOps"
+    Owner: "cloud@client.com"
+    Environment: "prod"
+  naming_standard:
+    sub: "wrk"

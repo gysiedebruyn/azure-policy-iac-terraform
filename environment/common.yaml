@@ -1,0 +1,9 @@
+---
+subscription_id: 00000000-0000-0000-0000-000000000000
+tenant_id: 00000000-0000-0000-0000-000000000000
+compliance_locations: # List of all Azure Locations where compliance resources should be enabled
+  - australiaeast
+  - australiasoutheast
+# default values
+ENVIRONMENT: "prod"
+LOCATION: "australiaeast"

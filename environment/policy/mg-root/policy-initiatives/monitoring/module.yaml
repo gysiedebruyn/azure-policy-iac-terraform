@@ -1,0 +1,4 @@
+initiative_name: "monitoring"
+initiative_display_name: "[Monitoring]: Enable/Audit Monitoring"
+initiative_description: "Ensure that all required monitoring is enabled and deployed"
+initiative_category: "Monitoring"

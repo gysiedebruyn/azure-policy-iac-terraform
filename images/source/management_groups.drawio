@@ -1,0 +1,133 @@
+<mxfile host="65bd71144e">
+    <diagram id="RKdUa0_5pQ3xFVkA9IOs" name="Page-1">
+        <mxGraphModel dx="1139" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=3;endArrow=none;endFill=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="2" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="243" y="280"/>
+                            <mxPoint x="99" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=3;endArrow=none;endFill=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="2" target="13">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="243" y="280"/>
+                            <mxPoint x="408" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="tenancy-mg" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Management_Groups.svg;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="160" width="66" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=none;html=1;strokeWidth=3;fillColor=#60a917;strokeColor=#2D7600;endArrow=none;endFill=0;" edge="1" parent="1" source="3" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="tenancy-policy" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/management_governance/Policy.svg;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="160" width="60" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=3;endArrow=none;endFill=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="6" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="management-mg" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Management_Groups.svg;" vertex="1" parent="1">
+                    <mxGeometry x="66" y="320" width="66" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;strokeWidth=3;fillColor=#60a917;strokeColor=#2D7600;endArrow=none;endFill=0;" edge="1" parent="1" source="8" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="management-policy" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/management_governance/Policy.svg;" vertex="1" parent="1">
+                    <mxGeometry x="216" y="320" width="60" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="management" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Subscriptions.svg;" vertex="1" parent="1">
+                    <mxGeometry x="77" y="440" width="44" height="71" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=3;endArrow=none;endFill=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="13" target="22">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="408" y="520"/>
+                            <mxPoint x="264" y="520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=3;endArrow=none;endFill=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="13" target="25">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="408" y="520"/>
+                            <mxPoint x="558" y="520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="workload-mg" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Management_Groups.svg;" vertex="1" parent="1">
+                    <mxGeometry x="374.5" y="318" width="66" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;strokeWidth=3;fillColor=#60a917;strokeColor=#2D7600;endArrow=none;endFill=0;" edge="1" parent="1" source="15" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="workload-policy" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/management_governance/Policy.svg;" vertex="1" parent="1">
+                    <mxGeometry x="524.5" y="318" width="60" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=3;endArrow=none;endFill=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="22" target="30">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="264" y="740"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=3;endArrow=none;endFill=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="22" target="33">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="264" y="860"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="prod-mg" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Management_Groups.svg;" vertex="1" parent="1">
+                    <mxGeometry x="230.5" y="580" width="66" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;strokeWidth=3;fillColor=#60a917;strokeColor=#2D7600;endArrow=none;endFill=0;" edge="1" parent="1" source="24" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="prod-policy" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/management_governance/Policy.svg;" vertex="1" parent="1">
+                    <mxGeometry x="380.5" y="580" width="60" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=3;endArrow=none;endFill=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="25" target="31">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="558" y="740"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=3;endArrow=none;endFill=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="25" target="32">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="558" y="860"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="nonprod-mg" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Management_Groups.svg;" vertex="1" parent="1">
+                    <mxGeometry x="524.5" y="580" width="66" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;strokeWidth=3;fillColor=#60a917;strokeColor=#2D7600;endArrow=none;endFill=0;" edge="1" parent="1" source="27" target="25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="nonprod-policy" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/management_governance/Policy.svg;" vertex="1" parent="1">
+                    <mxGeometry x="674.5" y="580" width="60" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="prod 1" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Subscriptions.svg;" vertex="1" parent="1">
+                    <mxGeometry x="296.5" y="720" width="44" height="71" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="nonprod 1" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Subscriptions.svg;" vertex="1" parent="1">
+                    <mxGeometry x="590.5" y="720" width="44" height="71" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="nonprod 2" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Subscriptions.svg;" vertex="1" parent="1">
+                    <mxGeometry x="590.5" y="840" width="44" height="71" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="prod 2" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Subscriptions.svg;" vertex="1" parent="1">
+                    <mxGeometry x="296.5" y="840" width="44" height="71" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

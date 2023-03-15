@@ -1,0 +1,5 @@
+management_group: /providers/Microsoft.Management/managementGroups/00000000-0000-0000-0000-000000000000
+assignment_scope: /providers/Microsoft.Management/managementGroups/00000000-0000-0000-0000-000000000000
+assignment_effect: "Audit"
+skip_remediation: false
+skip_role_assignment: false

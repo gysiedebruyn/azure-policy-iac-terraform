@@ -1,0 +1,108 @@
+<mxfile host="65bd71144e">
+    <diagram id="AMw8kOHvN72BYPIgvVda" name="Page-1">
+        <mxGraphModel dx="1386" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;strokeColor=#007FFF;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="200" width="1040" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Subscriptions.svg;strokeColor=#007FFF;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="210" width="18.59" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Management Subscription" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="210" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Compliance States" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=2;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="6" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="150" y="360"/>
+                            <mxPoint x="344" y="360"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/management_governance/Policy.svg;strokeColor=#007FFF;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="268" width="60" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Trigger" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=2;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="7" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/integration/Event_Grid_Topics.svg;strokeColor=#007FFF;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="270" width="67" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;strokeColor=#007FFF;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="480" width="340" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Subscriptions.svg;strokeColor=#007FFF;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="490" width="18.59" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Workload Subscription 1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="490" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;html=1;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=2;" edge="1" parent="1" source="11" target="12">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="150" y="640"/>
+                            <mxPoint x="344" y="640"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="Compliance States" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="18">
+                    <mxGeometry x="-0.0635" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/management_governance/Policy.svg;strokeColor=#007FFF;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="548" width="60" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/integration/Event_Grid_Topics.svg;strokeColor=#007FFF;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="550" width="67" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;strokeColor=#007FFF;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="480" width="340" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Subscriptions.svg;strokeColor=#007FFF;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="790" y="490" width="18.59" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Workload Subscription 2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="490" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Compliance States" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=2;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="16" target="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1044" y="640"/>
+                            <mxPoint x="852" y="640"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/management_governance/Policy.svg;strokeColor=#007FFF;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1014" y="550" width="60" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=2;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="17" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/integration/Event_Grid_Topics.svg;strokeColor=#007FFF;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="818.5" y="550" width="67" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="REST API" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=2;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="23" target="25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;strokeColor=#007FFF;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="566" y="270" width="68" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Alert Rule Queries" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=2;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="25" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/analytics/Log_Analytics_Workspaces.svg;strokeColor=#007FFF;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="268" width="64" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/management_governance/Monitor.svg;strokeColor=#007FFF;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1012" y="268" width="64" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Trigger" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=2;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="12" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

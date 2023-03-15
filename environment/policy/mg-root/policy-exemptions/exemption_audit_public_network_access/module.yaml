@@ -1,0 +1,11 @@
+---
+exemption_name: "Example exemption on Storage account"
+exemption_scope: "/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/example-rg/providers/microsoft.storage/storageaccounts/examplesa001"
+policy_assignment_id: "/providers/microsoft.management/managementgroups/00000000-0000-0000-0000-000000000000/providers/microsoft.authorization/policyassignments/f1535064-3294-48fa-94e2-"
+display_name: Exemption - Allow public endpoints on storage accountexamplesa001
+description: Allow the public endpoints. This storage account is used as a file share with external users.
+metadata: 
+  requestedBy: Someone
+  approvedBy: Different Person
+  dateApproved: 12-03-2023
+  referenceNumber: aa00a000a0000a00a000

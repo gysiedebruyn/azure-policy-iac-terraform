@@ -1,0 +1,10 @@
+---
+assignment_parameters:
+  listOfRegionsAllowed:
+    - global
+    - australiacentral
+    - australiaeast
+    - australiasoutheast
+  listOfResourceTypesNotAllowed:
+    - Microsoft.DBforMySQL/servers
+    - Microsoft.DBforMySQL/flexibleServers

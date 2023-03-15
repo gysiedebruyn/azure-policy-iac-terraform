@@ -1,0 +1,4 @@
+initiative_name: "resource_limitations"
+initiative_display_name: "[Resources]: Resource Limitations"
+initiative_description: "Resource related limitations - SKUs, locations, etc."
+initiative_category: "Resources"

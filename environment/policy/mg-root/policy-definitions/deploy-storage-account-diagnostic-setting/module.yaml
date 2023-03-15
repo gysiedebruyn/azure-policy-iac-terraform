@@ -1,0 +1,3 @@
+policy_name: deploy_storage_account_diagnostic_setting
+display_name: "Deploy storage account diagnostic settings"
+policy_category: Monitoring

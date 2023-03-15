@@ -1,0 +1,3 @@
+policy_name: deny_resources_types
+display_name: "Denied Resources"
+policy_category: General

@@ -1,0 +1,3 @@
+policy_name: require_resource_group_tags
+display_name: "Required tags on Resource Groups"
+policy_category: Tags
